@@ -19,6 +19,7 @@ public class Hello {
         /**
          * Integer Variable
          */
+/*
 //        int myFirstNumber = 5;
 //        int myFirstNumber = 10 + 5;
         int myFirstNumber = (10 + 5) + (2 * 10);
@@ -32,13 +33,16 @@ public class Hello {
 //        System.out.println(myTotal);
 
 
-        /**
+        */
+/**
          * Challenge
-         */
+         *//*
+
 
         int myLastOne = 1000 - myTotal;
 
         System.out.println(myLastOne);
+*/
 
     }
 }
