@@ -80,16 +80,27 @@ public class Main {
     }
 
     public static int calculateHighScorePosition(int playScore) {
-        if (playScore >= 1000) {
+/*        if (playScore >= 1000) {
             return 1;
-        } else if (playScore >= 500 && playScore < 1000) {
+        } else if (playScore >= 500) {
             return 2;
-        } else if (playScore >= 100 && playScore < 500) {
+        } else if (playScore >= 100) {
             return 3;
-        } else {
-            return 4;
         }
+
+        return 4;*/
+
+        int position = 4; // Assuming position 4 will be returned
+
+        if (playScore >= 1000) {
+            position = 1;
+        } else if (playScore >= 500) {
+            position = 2;
+        } else if (playScore >= 100) {
+            position = 3;
+        }
+
+        return position;
     }
-
-
 }
+
