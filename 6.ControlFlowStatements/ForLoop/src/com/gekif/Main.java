@@ -71,7 +71,7 @@ public class Main {
                 return false;
             }
         }
-        for (int i = 2; i <= (long) Math.sqrt(n); i++) {
+
 
         return true;
     }
