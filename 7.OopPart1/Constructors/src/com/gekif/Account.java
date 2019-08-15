@@ -8,6 +8,7 @@ public class Account {
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
+
     /**
      * Create Constructor
      */
@@ -35,13 +36,17 @@ public class Account {
         this.customerPhoneNumber = customerPhoneNumber;
     }
 
+    public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this("99999", 100.55, customerName, customerEmailAddress, customerPhoneNumber);
+    }
+
     public void deposit(double depositAmount) {
         this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
     }
 
     public void withdrawal(double withdrawalAmount) {
-        if (balance - withdrawalAmount <= 0) {
+        if (balance - withdrawalAmount < 0) {
             System.out.println("Only " + balance + " available. Withdrawal not proceed");
         } else {
             balance -= withdrawalAmount;
