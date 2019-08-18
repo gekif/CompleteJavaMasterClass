@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b65213b-a581-4a8f-aeec-025b984da56e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gekif/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gekif/DeluxeBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gekif/HealthyBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gekif/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gekif/Hamburger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gekif/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gekif/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +21,30 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gekif/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="275">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeluxeBurger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gekif/DeluxeBurger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealthyBurger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gekif/HealthyBurger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +52,8 @@
       <file leaf-file-name="Hamburger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gekif/Hamburger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="229">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -58,6 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/gekif/Hamburger.java" />
+        <option value="$PROJECT_DIR$/src/com/gekif/HealthyBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/gekif/DeluxeBurger.java" />
         <option value="$PROJECT_DIR$/src/com/gekif/Main.java" />
       </list>
     </option>
@@ -150,12 +176,20 @@
       <option name="presentableId" value="Default" />
       <updated>1566094390522</updated>
       <workItem from="1566094392620" duration="11000" />
-      <workItem from="1566115369573" duration="1478000" />
+      <workItem from="1566115369573" duration="3299000" />
     </task>
+    <task id="LOCAL-00001" summary="8. OOP Part 2: OOP Master Challenge Part 1">
+      <created>1566117811858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566117811858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1489000" />
+    <option name="totallyTimeSpent" value="3310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="580" height="735" extended-state="0" />
@@ -170,12 +204,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32495812" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25965664" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2596154" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,6 +232,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="8. OOP Part 2: OOP Master Challenge Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. OOP Part 2: OOP Master Challenge Part 1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/gekif/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -208,15 +246,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gekif/Hamburger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="229">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gekif/HealthyBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gekif/DeluxeBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gekif/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="275">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
